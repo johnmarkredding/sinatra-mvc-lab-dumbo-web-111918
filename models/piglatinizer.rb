@@ -1,0 +1,16 @@
+class PigLatinizer
+  attr_accessor :text
+  def initialize(text)
+    @text = text
+  end
+  
+  def result
+    self.parse
+  end
+  
+  private
+  
+  def parse
+    
+  end
+end
